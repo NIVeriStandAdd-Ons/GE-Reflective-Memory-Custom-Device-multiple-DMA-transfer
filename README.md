@@ -1,9 +1,9 @@
 ## GE Reflective Memory Custom Device with multiple DMA transfer ##
 
-**It is only useful for interfacing with 3rd party systems, as NI VeriStand's built in GE RefMem support is vastly superior for communicating between NI VeriStand targets. Compare to native implementation, that does one DMA transfer per PCL, this custom device does multiple transfers based on memory locations. So the performance of communication with GE reflective memory is improved, when the addressed are distributed in multiple location. Detection change on write is also implemented. Multiple boards in the system are supported. Windows are also supported.**
+**It is only useful for interfacing with 3rd party systems, as NI VeriStand's built in GE RefMem support is vastly superior for communicating between NI VeriStand targets. Compare to native implementation, that does one DMA transfer per PCL, this custom device does multiple transfers based on memory locations. So the performance of communication with GE reflective memory is improved, when the addresses are distributed in multiple location. Detection change on write is also implemented. Multiple boards in the system are supported. Windows are also supported.**
 
-!!!To install the support for this custom device you must copy the GE5565PIORC_NetworkInterrupts_DMA.inf  to :/ni-rt/system/ and reboot. !!!
-!!!The support  for GE Fanuc in MAX can NOT be installed!!!
+**To install the support for this custom device you must copy the GE5565PIORC_NetworkInterrupts_DMA.inf  to :/ni-rt/system/ and reboot.
+The support  for GE Fanuc in MAX can NOT be installed!!!**
 
 ### LabVIEW Version ###
 
