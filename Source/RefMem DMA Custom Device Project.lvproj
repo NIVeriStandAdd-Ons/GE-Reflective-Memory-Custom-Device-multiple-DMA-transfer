@@ -113,17 +113,16 @@
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6BFCE18B-FC4A-4ED2-9ED8-A9AB12A89D3C}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{74CC3BB3-E9A3-4500-AA42-1F9465AFD9C8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4430FB24-4E2B-47C5-80F2-FEA648F3ACF0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device/Custom Device RefMem DMA.xml</Property>
@@ -135,24 +134,22 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices/RefMem DMA</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/RefMem DMA</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7F6D684B-4688-435E-9E56-C1914D7AB7BE}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices/RefMem DMA</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/RefMem DMA</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices/RefMem DMA/Data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/RefMem DMA/Data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Read RefMem PtByPt Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices/RefMem DMA/RefMem DMA Configuration.llb</Property>
-				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/RefMem DMA/RefMem DMA Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">Main CD Folder</Property>
 				<Property Name="Destination[3].path" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2011/Custom Devices</Property>
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{74CC3BB3-E9A3-4500-AA42-1F9465AFD9C8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4430FB24-4E2B-47C5-80F2-FEA648F3ACF0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device/RefMem DMA Custom Device.lvlib/System Explorer/Data Channel.vi</Property>
@@ -179,21 +176,19 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices/RefMem DMA</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/RefMem DMA</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D454FB8B-ECA8-4561-A40B-AE92DBD1BBEE}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices/RefMem DMA</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/RefMem DMA</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices/RefMem DMA/Data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/RefMem DMA/Data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Read RefMem PtByPt Engine LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices/RefMem DMA/RefMem DMA Engine.llb</Property>
-				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/RefMem DMA/RefMem DMA Engine.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D3ACD0EC-0A2E-47D2-822B-25A80CA69E48}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4430FB24-4E2B-47C5-80F2-FEA648F3ACF0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device/RefMem DMA Custom Device.lvlib</Property>
@@ -214,23 +209,21 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices/RefMem DMA</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/RefMem DMA</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7839B03B-8954-4668-B9A4-475AC001CF45}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices/RefMem DMA</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/RefMem DMA</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices/RefMem DMA/Data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/RefMem DMA/Data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Read RefMem PtByPt Engine LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">/c/Documents and Settings/All Users/Documents/National Instruments/NI VeriStand 2013/Custom Devices/RefMem DMA/RefMem DMA Engine.llb</Property>
-				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/RefMem DMA/RefMem DMA Engine.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{74CC3BB3-E9A3-4500-AA42-1F9465AFD9C8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4430FB24-4E2B-47C5-80F2-FEA648F3ACF0}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Auto error handling</Property>
