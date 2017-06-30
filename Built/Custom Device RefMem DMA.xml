@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+	<AddMenu>
+		<eng>RefMem DMA</eng>
+		<loc>RefMem DMA</loc>
+	</AddMenu>
+	<Version>2.1</Version>
+	<Type>Asynchronous</Type>
+	<MaxOccurrence>2474</MaxOccurrence>
+	<MainPageGUID>1d8f030b-140c-49c3-a487-fe6eca8ef735</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\RefMem DMA Initialization VI.vi</Path>
+		</Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>PharlapWindows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\RefMem DMA\RefMem DMA Engine.llb\RefMem DMA RT Driver VI (Async).vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\RefMem DMA\RefMem DMA Engine.llb\RefMem DMA RT Driver VI (Async).vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+	<Dependencies />
+	<Pages>
+		<Page>
+			<Name>
+				<eng>Data Channel</eng>
+				<loc>Data Channel</loc>
+			</Name>
+			<GUID>44f71a1c-f40f-4d80-99bc-9ce0de59748b</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Data Channel.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Decimation Channel</eng>
+				<loc>Decimation Channel</loc>
+			</Name>			
+			<GUID>8433dcab-dea3-4110-97cf-311a1b3fd76d</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Decimation Channel.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Data Folder</eng>
+				<loc>Data Folder</loc>
+			</Name>
+			<GUID>46fff8b9-14f1-4a93-83c9-fa3107fe490e</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Data Folder.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>RefMem DMA</eng>
+				<loc>RefMem DMA</loc>
+			</Name>
+			<GUID>1d8f030b-140c-49c3-a487-fe6eca8ef735</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\RefMem DMA Main Page.vi</Path>
+			</Item2Launch>
+			<!--
+			<ActionVIOnDownload>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\CheckAddsOnDeploy.vi</Path>
+			</ActionVIOnDownload>
+			-->
+		</Page>
+		<Page>
+			<Name>
+				<eng>Channel (delete protected)</eng>
+				<loc>Channel (delete protected)</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>e91a84f3-78c7-400a-8e17-8c81a2c16c94</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>Absolute</Type>
+				<Path>System UI VIs\Custom Device\Custom Device Channel.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu />
+			<Help>
+				<Item2Launch>
+					<Type>To Base</Type>
+					<Path>Veristand.chm\Custom_Devices_SE.html</Path>
+				</Item2Launch>
+				<FileType>chm</FileType>
+			</Help>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Status Section</eng>
+				<loc>Status Section</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>782d9ef4-3de5-4e4c-bb43-83b54ca0e2a2</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Status Section.vi</Path>
+			</Item2Launch>
+		</Page>
+	</Pages>
+	<CustomXML>
+		<Dummy></Dummy>
+	</CustomXML>
+</CustomDevice>
