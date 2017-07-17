@@ -89,10 +89,12 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\RefMem DMA Main Page.vi</Path>
 			</Item2Launch>
+			<!--
 			<ActionVIOnDownload>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\CheckAddsOnDeploy.vi</Path>
-			</ActionVIOnDownload>
+			</ActionVIOnDownload> 
+			-->
 		</Page>
 		<Page>
 			<Name>
