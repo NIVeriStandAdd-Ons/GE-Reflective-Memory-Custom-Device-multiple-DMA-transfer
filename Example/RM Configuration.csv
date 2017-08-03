@@ -1,0 +1,25 @@
+﻿BlockName,Direction,Block Address,Channel Name,Default Value,Units
+DMA1,Read,100,a1,0,v
+DMA1,Read,100,a2,1,v
+DMA1,Read,100,a3,2,v
+DMA1,Read,100,a4,3,v
+DMA1,Read,100,a5,4,v
+DMA1,Read,100,a6,5,v
+DMA1,Read,100,a7,6,v
+DMA1,Read,100,a8,7,v
+DMA1,Read,100,a9,8,v
+DMA1,Read,100,a10,9,v
+DMA1,Read,100,a11,10,v
+DMA1,Read,100,a12,11,v
+DMA1,Read,100,a13,12,v
+DMA1,Read,100,a14,13,v
+DMA1,Read,100,a15,14,v
+DMA1,Read,100,a16,15,v
+DMA1,Read,100,a17,16,v
+DMA1,Read,100,a18,17,v
+DMA1,Read,100,a19,18,v
+DMA1,Read,100,a20,19,v
+DMA2,Write,120,B1,20,v
+DMA2,Write,120,B2,21,v
+DMA2,Write,120,B3,22,v
+DMA2,Write,120,B4,23,v
