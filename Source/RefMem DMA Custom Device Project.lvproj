@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
@@ -86,14 +86,6 @@
 				<Item Name="VISA Register Access Address Space.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Register Access Address Space.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Block Data Reference.ctl" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/Block Data Reference.ctl"/>
-			<Item Name="Custom Device Channel Type.ctl" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/Custom Device Channel Type.ctl"/>
-			<Item Name="Custom Device Channel.ctl" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/Custom Device Channel.ctl"/>
-			<Item Name="Custom Device Item Ref.ctl" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/Custom Device Item Ref.ctl"/>
-			<Item Name="Custom Device Loop Type.ctl" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/Custom Device Loop Type.ctl"/>
-			<Item Name="Custom Device Pointer.ctl" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/Custom Device Pointer.ctl"/>
-			<Item Name="Data Access Type.ctl" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/Data Access Type.ctl"/>
-			<Item Name="Data Reference.ctl" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/Data Reference.ctl"/>
 			<Item Name="GE5565 Close (Cluster) mod.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Close (Cluster) mod.vi"/>
 			<Item Name="GE5565 Disable DMA Interrupt (Cluster) mod.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Disable DMA Interrupt (Cluster) mod.vi"/>
 			<Item Name="GE5565 DMA Read Interrupt (U64) Cluster.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 DMA Read Interrupt (U64) Cluster.vi"/>
@@ -105,8 +97,6 @@
 			<Item Name="GE5565 Set DMA Transfer Size.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Set DMA Transfer Size.vi"/>
 			<Item Name="GE5565 Status.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Status.vi"/>
 			<Item Name="GE5565 Write (U64) Cluster.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Write (U64) Cluster.vi"/>
-			<Item Name="Get Item Property (U16).vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/Get Item Property (U16).vi"/>
-			<Item Name="Get Item Property (U32).vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/Get Item Property (U32).vi"/>
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -116,32 +106,6 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NI VeriStand - Add Custom Device Channel.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Add Custom Device Channel.vi"/>
-			<Item Name="NI VeriStand - Add Custom Device Section.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Add Custom Device Section.vi"/>
-			<Item Name="NI VeriStand - Find next valid Label.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Find next valid Label.vi"/>
-			<Item Name="NI VeriStand - Get Channel Block Data References.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Get Channel Block Data References.vi"/>
-			<Item Name="NI VeriStand - Get Custom Device Channel Data.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Get Custom Device Channel Data.vi"/>
-			<Item Name="NI VeriStand - Get Event Refnum.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Get Event Refnum.vi"/>
-			<Item Name="NI VeriStand - Get Item Children.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Get Item Children.vi"/>
-			<Item Name="NI VeriStand - Get Item Data.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Get Item Data.vi"/>
-			<Item Name="NI VeriStand - Get Item Description.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Get Item Description.vi"/>
-			<Item Name="NI VeriStand - Get Item Property.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Get Item Property.vi"/>
-			<Item Name="NI VeriStand - Item Reference to Pointer.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Item Reference to Pointer.vi"/>
-			<Item Name="NI VeriStand - Parse Incoming Command Data.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Parse Incoming Command Data.vi"/>
-			<Item Name="NI VeriStand - Rename Custom Device Item.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Rename Custom Device Item.vi"/>
-			<Item Name="NI VeriStand - Search for All Items by Property.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device Tools/Custom Device Utility Library/NI VeriStand - Search for All Items by Property.vi"/>
-			<Item Name="NI VeriStand - Search for Item by Name.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device Tools/Custom Device Utility Library/NI VeriStand - Search for Item by Name.vi"/>
-			<Item Name="NI VeriStand - Search for Item.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device Tools/Custom Device Utility Library/NI VeriStand - Search for Item.vi"/>
-			<Item Name="NI VeriStand - Set Custom Device Channel Default Value.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Set Custom Device Channel Default Value.vi"/>
-			<Item Name="NI VeriStand - Set Custom Device Channel Type.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Set Custom Device Channel Type.vi"/>
-			<Item Name="NI VeriStand - Set Custom Device Channel Units.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Set Custom Device Channel Units.vi"/>
-			<Item Name="NI VeriStand - Set Item Description.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Set Item Description.vi"/>
-			<Item Name="NI VeriStand - Set Item Property.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Set Item Property.vi"/>
-			<Item Name="NI VeriStand - Set Loop Type.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Set Loop Type.vi"/>
-			<Item Name="NI VeriStand - Signal When Ready for Shutdown.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Signal When Ready for Shutdown.vi"/>
-			<Item Name="NI VeriStand - Unset Busy Cursor.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/NI VeriStand - Unset Busy Cursor.vi"/>
-			<Item Name="Set Item Property (U16).vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/Set Item Property (U16).vi"/>
-			<Item Name="Set Item Property (U32).vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/NI Veristand/Custom Device API/Set Item Property (U32).vi"/>
 			<Item Name="Update Dialog Box.vi" Type="VI" URL="../Custom Device/System Explorer/Update Dialog Box.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
