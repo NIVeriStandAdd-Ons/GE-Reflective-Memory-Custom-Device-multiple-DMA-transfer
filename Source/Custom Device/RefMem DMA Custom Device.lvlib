@@ -11,11 +11,23 @@
 	</Item>
 	<Item Name="Real-Time" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Add shared lock.vi" Type="VI" URL="../Real-Time/SubVIs/Add shared lock.vi"/>
 			<Item Name="Block descriptor.ctl" Type="VI" URL="../Real-Time/SubVIs/Block descriptor.ctl"/>
 			<Item Name="Decimation - time to write.vi" Type="VI" URL="../Real-Time/SubVIs/Decimation - time to write.vi"/>
 			<Item Name="Find next channel.vi" Type="VI" URL="../System Explorer/Find next channel.vi"/>
 			<Item Name="Find status indexes.vi" Type="VI" URL="../Real-Time/SubVIs/Find status indexes.vi"/>
+			<Item Name="GE5565 Close (Cluster) mod.vi" Type="VI" URL="../Real-Time/5565/GE5565 Close (Cluster) mod.vi"/>
+			<Item Name="GE5565 Disable DMA Interrupt (Cluster) mod.vi" Type="VI" URL="../Real-Time/5565/GE5565 Disable DMA Interrupt (Cluster) mod.vi"/>
+			<Item Name="GE5565 DMA Read Interrupt (U64) Cluster.vi" Type="VI" URL="../Real-Time/5565/GE5565 DMA Read Interrupt (U64) Cluster.vi"/>
+			<Item Name="GE5565 Enable DMA Interrupt (Cluster) Multi.vi" Type="VI" URL="../Real-Time/5565/GE5565 Enable DMA Interrupt (Cluster) Multi.vi"/>
+			<Item Name="GE5565 Open (Cluster) mod.vi" Type="VI" URL="../Real-Time/5565/GE5565 Open (Cluster) mod.vi"/>
+			<Item Name="GE5565 Read (U32) Cluster mod.vi" Type="VI" URL="../Real-Time/5565/GE5565 Read (U32) Cluster mod.vi"/>
+			<Item Name="GE5565 Read-Mod-Write 32 mod.vi" Type="VI" URL="../Real-Time/5565/GE5565 Read-Mod-Write 32 mod.vi"/>
+			<Item Name="GE5565 Set DMA RW (Cluster) mod.vi" Type="VI" URL="../Real-Time/5565/GE5565 Set DMA RW (Cluster) mod.vi"/>
+			<Item Name="GE5565 Set DMA Transfer Size.vi" Type="VI" URL="../Real-Time/5565/GE5565 Set DMA Transfer Size.vi"/>
+			<Item Name="GE5565 Status.vi" Type="VI" URL="../Real-Time/5565/GE5565 Status.vi"/>
+			<Item Name="GE5565 Write (U64) Cluster.vi" Type="VI" URL="../Real-Time/5565/GE5565 Write (U64) Cluster.vi"/>
 			<Item Name="Insert Status Data.vi" Type="VI" URL="../Real-Time/SubVIs/Insert Status Data.vi"/>
 			<Item Name="NIVS Print Debug String.vi" Type="VI" URL="../Real-Time/SubVIs/NIVS Print Debug String.vi"/>
 			<Item Name="Parse Data Channels.vi" Type="VI" URL="../Real-Time/SubVIs/Parse Data Channels.vi"/>
@@ -31,18 +43,19 @@
 		<Item Name="RefMem DMA RT Driver VI (Async).vi" Type="VI" URL="../Real-Time/RefMem DMA RT Driver VI (Async).vi"/>
 	</Item>
 	<Item Name="System Explorer" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Add From Spreadsheet.vi" Type="VI" URL="../System Explorer/Add From Spreadsheet.vi"/>
-		<Item Name="Make New Section if Doesn&apos;t Exist.vi" Type="VI" URL="../System Explorer/Make New Section if Doesn&apos;t Exist.vi"/>
 		<Item Name="Check Address Range.vi" Type="VI" URL="../System Explorer/Check Address Range.vi"/>
 		<Item Name="CheckAddsOnDeploy.vi" Type="VI" URL="../System Explorer/CheckAddsOnDeploy.vi"/>
 		<Item Name="Data Channel.vi" Type="VI" URL="../System Explorer/Data Channel.vi"/>
 		<Item Name="Data Folder.vi" Type="VI" URL="../System Explorer/Data Folder.vi"/>
+		<Item Name="Decimation Channel.vi" Type="VI" URL="../System Explorer/Decimation Channel.vi"/>
+		<Item Name="Make New Section if Doesn&apos;t Exist.vi" Type="VI" URL="../System Explorer/Make New Section if Doesn&apos;t Exist.vi"/>
+		<Item Name="Reflective Memory File.lvclass" Type="LVClass" URL="../System Explorer/Reflective Memory File/Reflective Memory File.lvclass"/>
 		<Item Name="RefMem DMA Initialization VI.vi" Type="VI" URL="../System Explorer/RefMem DMA Initialization VI.vi"/>
 		<Item Name="RefMem DMA Main Page.vi" Type="VI" URL="../System Explorer/RefMem DMA Main Page.vi"/>
 		<Item Name="SE Update Type.vi" Type="VI" URL="../Real-Time/SubVIs/SE Update Type.vi"/>
 		<Item Name="Status Section.vi" Type="VI" URL="../System Explorer/Status Section.vi"/>
-		<Item Name="Decimation Channel.vi" Type="VI" URL="../System Explorer/Decimation Channel.vi"/>
-		<Item Name="Reflective Memory File.lvclass" Type="LVClass" URL="../System Explorer/Reflective Memory File/Reflective Memory File.lvclass"/>
+		<Item Name="Update Dialog Box.vi" Type="VI" URL="../System Explorer/Update Dialog Box.vi"/>
 	</Item>
 </Library>
