@@ -9,6 +9,10 @@ The support  for GE Fanuc in MAX can NOT be installed!!!**
 
 LabVIEW 2013 SP1
 
+### Dependencies ###
+
+VeriStand Dev tools VIPC: https://forums.ni.com/t5/NI-VeriStand-Add-Ons-Documents/VeriStand-Development-Tools-VIPC/ta-p/3632685
+
 ### Built Availability ###
 
 No builds are available.
