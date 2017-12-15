@@ -86,17 +86,6 @@
 				<Item Name="VISA Register Access Address Space.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Register Access Address Space.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="GE5565 Close (Cluster) mod.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Close (Cluster) mod.vi"/>
-			<Item Name="GE5565 Disable DMA Interrupt (Cluster) mod.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Disable DMA Interrupt (Cluster) mod.vi"/>
-			<Item Name="GE5565 DMA Read Interrupt (U64) Cluster.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 DMA Read Interrupt (U64) Cluster.vi"/>
-			<Item Name="GE5565 Enable DMA Interrupt (Cluster) Multi.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Enable DMA Interrupt (Cluster) Multi.vi"/>
-			<Item Name="GE5565 Open (Cluster) mod.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Open (Cluster) mod.vi"/>
-			<Item Name="GE5565 Read (U32) Cluster mod.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Read (U32) Cluster mod.vi"/>
-			<Item Name="GE5565 Read-Mod-Write 32 mod.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Read-Mod-Write 32 mod.vi"/>
-			<Item Name="GE5565 Set DMA RW (Cluster) mod.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Set DMA RW (Cluster) mod.vi"/>
-			<Item Name="GE5565 Set DMA Transfer Size.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Set DMA Transfer Size.vi"/>
-			<Item Name="GE5565 Status.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Status.vi"/>
-			<Item Name="GE5565 Write (U64) Cluster.vi" Type="VI" URL="../Custom Device/Real-Time/5565/GE5565 Write (U64) Cluster.vi"/>
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -106,7 +95,6 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Update Dialog Box.vi" Type="VI" URL="../Custom Device/System Explorer/Update Dialog Box.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
