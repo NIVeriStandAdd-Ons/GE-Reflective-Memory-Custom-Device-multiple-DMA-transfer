@@ -5,9 +5,19 @@
 **To install the support for this custom device you must copy the GE5565PIORC_NetworkInterrupts_DMA.inf  to :/ni-rt/system/ and reboot.
 The support  for GE Fanuc in MAX can NOT be installed!!!**
 
+**This version removes all User Interface capabilities to add/remove DMAs/Channels. Configuration is only available via a text file (CSV file). There is one example of a configuration file coming with source code. Here are the column headers for the file:
+BlockName, Block Offset (Doubles), Block Direction (Read or Write), Channel Relative Offset (Doubles), Channel Name, Channel Unit, Channel Default Value (for Write Channels Only)
+	o	BlockName: it’s the DMA BlockName, same name for all Channels from that given Block.
+	o	Block Offset (Doubles): it’s the DMA Block Offset (in Doubles), same Offset for all Channels from that Block.
+	o	Block Direction (Read or Write). It’s either “Read” or “Write”, no other values supported. All Channels from that block must be set to same Direction value.
+	o	Channel Relative Offset (Doubles). It’s the Relative Offset of that Channel within considered DMA Block. For Read Direction, there might be gaps (addresses not used within the Block). For Write Direction all Offsets must be present.
+	o	Channel Unit. Unit for that Channel. It can be omitted (empty string).
+	o	Channel Default Value (for Write Channels Only). Value used as Init Value for that NI-VeriStand Channel. Note that it applies only for Write Direction. It can be omitted (empty string).
+
+
 ### LabVIEW Version ###
 
-LabVIEW 2013 SP1
+LabVIEW 2017
 
 ### Dependencies ###
 
@@ -19,7 +29,7 @@ No builds are available.
 
 ### Quality, Limitations ###
 
-The IP was developed for one specific customer and was deployed successfully. 
+The IP has been updated for one specific customer and was deployed successfully. 
 
 ### License ###
 

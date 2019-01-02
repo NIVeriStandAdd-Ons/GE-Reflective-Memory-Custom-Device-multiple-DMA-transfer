@@ -1,0 +1,21 @@
+BlockName, Block Offset (Doubles), Block Direction (Read or Write), Channel Relative Offset (Doubles), Channel Name, Channel Unit, Channel Default Value (for Write Channels Only)
+DMA Block 0,0,Write,0,A_W_Data Channel 0,v,10.12345
+DMA Block 0,0,Write,1,A_W_Data Channel 1,v,12.9876
+DMA Block 0,0,Write,2,A_W_Data Channel 2,v,14.12345
+DMA Block 0,0,Write,3,A_W_Data Channel 3,v,16.9876
+DMA Block 0,0,Write,4,A_W_Data Channel 4,v,18.12345
+DMA Block 0,0,Write,5,A_W_Data Channel 5,v,20.9876
+DMA Block 0,0,Write,6,A_W_Data Channel 6,v,22.12345
+DMA Block 0,0,Write,7,A_W_Data Channel 7,v,24.9876
+DMA Block 0,0,Write,8,A_W_Data Channel 8,v,26.876
+DMA Block 0,0,Write,9,A_W_Data Channel 9,v,28.76
+DMA Block 1,0,Read,0,A_R_Data Channel 0,v,
+DMA Block 1,0,Read,1,A_R_Data Channel 1,v,
+DMA Block 1,0,Read,2,A_R_Data Channel 2,v,
+DMA Block 1,0,Read,3,A_R_Data Channel 3,v,
+DMA Block 1,0,Read,4,A_R_Data Channel 4,v,
+DMA Block 1,0,Read,5,A_R_Data Channel 5,v,
+DMA Block 1,0,Read,6,A_R_Data Channel 6,v,
+DMA Block 1,0,Read,7,A_R_Data Channel 7,v,
+DMA Block 1,0,Read,8,A_R_Data Channel 8,v,
+DMA Block 1,0,Read,9,A_R_Data Channel 9,v,
