@@ -26,7 +26,9 @@ LabVIEW 2017
 ### Dependencies ###
 
 VeriStand Dev tools VIPC: https://forums.ni.com/t5/NI-VeriStand-Add-Ons-Documents/VeriStand-Development-Tools-VIPC/ta-p/3632685
-OpenG Toolkit: http://sine.ni.com/nips/cds/view/p/lang/en/nid/209027
+
+OpenG Toolkit:
+http://sine.ni.com/nips/cds/view/p/lang/en/nid/209027
 
 
 ### Built Availability ###
