@@ -1,17 +1,22 @@
 ## GE Reflective Memory Custom Device with multiple DMA transfer ##
 
-**It is only useful for interfacing with 3rd party systems, as NI VeriStand's built in GE RefMem support is vastly superior for communicating between NI VeriStand targets. Compare to native implementation, that does one DMA transfer per PCL, this custom device does multiple transfers based on memory locations. So the performance of communication with GE reflective memory is improved, when the addresses are distributed in multiple location. Detection change on write is also implemented. Multiple boards in the system are supported. Windows are also supported.**
+It is only useful for interfacing with 3rd party systems, as NI VeriStand's built in GE RefMem support is vastly superior for communicating between NI VeriStand targets. Compare to native implementation, that does one DMA transfer per PCL, this custom device does multiple transfers based on memory locations. So the performance of communication with GE reflective memory is improved, when the addresses are distributed in multiple location. Detection change on write is also implemented. Multiple boards in the system are supported. Windows are also supported.
 
 **To install the support for this custom device you must copy the GE5565PIORC_NetworkInterrupts_DMA.inf  to :/ni-rt/system/ and reboot.
 The support  for GE Fanuc in MAX can NOT be installed!!!**
 
-**This version removes all User Interface capabilities to add/remove DMAs/Channels. Configuration is only available via a text file (CSV file). There is one example of a configuration file coming with source code. Here are the column headers for the file:
-BlockName, Block Offset (Doubles), Block Direction (Read or Write), Channel Relative Offset (Doubles), Channel Name, Channel Unit, Channel Default Value (for Write Channels Only)
-BlockName: it’s the DMA BlockName, same name for all Channels from that given Block.
-	o	Block Offset (Doubles): it’s the DMA Block Offset (in Doubles), same Offset for all Channels from that Block.
-	o	Block Direction (Read or Write). It’s either “Read” or “Write”, no other values supported. All Channels from that block must be set to same Direction value.
-	o	Channel Relative Offset (Doubles). It’s the Relative Offset of that Channel within considered DMA Block. For Read Direction, there might be gaps (addresses not used within the Block). For Write Direction all Offsets must be present.
-	o	Channel Unit. Unit for that Channel. It can be omitted (empty string).**
+This version removes all User Interface capabilities to add/remove DMAs/Channels. Configuration is only available via a text file (CSV file). There is one example of a configuration file coming with source code. Here are the column headers for the file:
+*BlockName, Block Offset (Doubles), Block Direction (Read or Write), Channel Relative Offset (Doubles), Channel Name, Channel Unit, Channel Default Value (for Write Channels Only)*
+
+Header |Definition
+-------------	|-------------
+BlockName  | It’s the DMA BlockName, same name for all Channels from that given Block.
+Block Offset (Doubles)  | It’s the DMA Block Offset (in Doubles), same Offset for all Channels from that Block.
+Block Direction (Read or Write)|It’s either “Read” or “Write”, no other values supported. All Channels from that block must be set to same Direction value.
+Channel Relative Offset (Doubles)|It’s the Relative Offset of that Channel within considered DMA Block. For Read Direction, there might be gaps (addresses not used within the Block). For Write Direction all Offsets must be present.
+Channel Name|NI-VeriStand Channel Name.
+Channel Unit|Unit for that Channel. It can be omitted (empty string).
+Channel Default Value (for Write Channels Only)|Value used as Init Value for that NI-VeriStand Channel. Note that it applies only for Write Direction. It can be omitted (empty string).
 
 
 ### LabVIEW Version ###
@@ -21,6 +26,8 @@ LabVIEW 2017
 ### Dependencies ###
 
 VeriStand Dev tools VIPC: https://forums.ni.com/t5/NI-VeriStand-Add-Ons-Documents/VeriStand-Development-Tools-VIPC/ta-p/3632685
+OpenG Toolkit: http://sine.ni.com/nips/cds/view/p/lang/en/nid/209027
+
 
 ### Built Availability ###
 
