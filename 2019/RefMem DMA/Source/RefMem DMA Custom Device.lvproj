@@ -27,6 +27,9 @@
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="ImportCSV.vi" Type="VI" URL="../Tests/ImportCSV.vi"/>
+		</Item>
 		<Item Name="Custom Device RefMem DMA.xml" Type="Document" URL="../Custom Device RefMem DMA.xml"/>
 		<Item Name="RefMem DMA Engine.lvlib" Type="Library" URL="../Engine/RefMem DMA Engine.lvlib"/>
 		<Item Name="RefMem DMA Shared.lvlib" Type="Library" URL="../Shared/RefMem DMA Shared.lvlib"/>
