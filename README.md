@@ -1,9 +1,10 @@
 ## GE Reflective Memory Custom Device with multiple DMA transfer ##
 
-It is only useful for interfacing with 3rd party systems, as NI VeriStand's built in GE RefMem support is vastly superior for communicating between NI VeriStand targets. Compare to native implementation, that does one DMA transfer per PCL, this custom device does multiple transfers based on memory locations. So the performance of communication with GE reflective memory is improved, when the addresses are distributed in multiple location. Detection change on write is also implemented. Multiple boards in the system are supported. Windows are also supported.
+It is only useful for interfacing with 3rd party systems, as NI VeriStand's built in GE RefMem support is vastly superior for communicating between NI VeriStand targets. Compare to native implementation, that does one DMA transfer per PCL, this custom device does multiple transfers based on memory locations. So the performance of communication with GE reflective memory is improved, when the addresses are distributed in multiple location. Detection change on write is also implemented. Multiple boards in the system are supported. OS supported are Windows, Pharlap and LinuxRT.
 
-**To install the support for this custom device you must copy the GE5565PIORC_NetworkInterrupts_DMA.inf  to :/ni-rt/system/ and reboot.
-The support  for GE Fanuc in MAX can NOT be installed!!!**
+**To install the support for this custom device on Pharlap you must copy the GE5565PIORC_NetworkInterrupts_DMA.inf  to :/ni-rt/system/ and reboot.
+**To install the support for this custom device on Linux RT you must copy the GE5565PIORC_NetworkInterrupts_DMA.inf  to :/etc/nipal/devinit.d and reboot.
+DO not install the GE Fanuc support files from MAX!!!**
 
 This version removes all User Interface capabilities to add/remove DMAs/Channels. Configuration is only available via a text file (CSV file). There is one example of a configuration file coming with source code. Here are the column headers for the file:
 *BlockName, Block Offset (Doubles), Block Direction (Read or Write), Channel Relative Offset (Doubles), Channel Name, Channel Unit, Channel Default Value (for Write Channels Only)*
@@ -21,7 +22,7 @@ Channel Default Value (for Write Channels Only)|Value used as Init Value for tha
 
 ### LabVIEW Version ###
 
-LabVIEW 2017
+LabVIEW 2019
 
 ### Dependencies ###
 

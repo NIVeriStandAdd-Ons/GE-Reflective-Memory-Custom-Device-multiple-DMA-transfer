@@ -1,119 +1,134 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
-	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
-	<AddMenu>
-		<eng>RefMem DMA</eng>
-		<loc>RefMem DMA</loc>
-	</AddMenu>
-	<Version>2.3</Version>
-	<Type>Asynchronous</Type>
-	<MaxOccurrence>2474</MaxOccurrence>
-	<MainPageGUID>1d8f030b-140c-49c3-a487-fe6eca8ef735</MainPageGUID>
-	<InitializationVI>
-		<Type>Action</Type>
-		<Item2Launch>
-			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\RefMem DMA Initialization VI.vi</Path>
-		</Item2Launch>
-	</InitializationVI>
-	<CustomDeviceVI>
+<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>RefMem DMA</eng>
+    <loc>RefMem DMA</loc>
+  </AddMenu>
+  <Version>2.3d0</Version>
+  <Type>Asynchronous</Type>
+  <MaxOccurrence>2474</MaxOccurrence>
+  <MainPageGUID>0e1a756e-1a6e-416d-924d-af2409f2f6d8</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
 		<SourceDistribution>
 			<Source>
-				<SupportedTarget>PharlapWindows</SupportedTarget>
+				<SupportedTarget>Windows</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\RefMem DMA\Pharlap\RefMem DMA Engine.llb\RefMem DMA RT Driver VI (Async).vi</Path>
+					<Path>Custom Devices\RefMem DMA\Windows\RefMem DMA Engine Windows.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\RefMem DMA\RefMem DMA Engine.llb\RefMem DMA RT Driver VI (Async).vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\RefMem DMA\RefMem DMA Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
-		  <Source>
-			<SupportedTarget>Linux_x64</SupportedTarget>
 			<Source>
-			  <Type>To Common Doc Dir</Type>
-			  <Path>Custom Devices\RefMem DMA\Pharlap\RefMem DMA Engine.llb\RefMem DMA RT Driver VI (Async).vi</Path>
+				<SupportedTarget>Pharlap</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\RefMem DMA\PharLap\RefMem DMA Engine Pharlap.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\RefMem DMA\RefMem DMA Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\RefMem DMA\RefMem DMA Engine.llb\RefMem DMA RT Driver VI (Async).vi</RealTimeSystemDestination>
-		  </Source>
+			<Source>
+				<SupportedTarget>VxWorks</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\RefMem DMA\VxWorks\RefMem DMA Engine VxWorks.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\RefMem DMA\RefMem DMA Engine VxWorks.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>	
+			<Source>
+				<SupportedTarget>Linux_32_ARM</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\RefMem DMA\Linux_32_ARM\RefMem DMA Engine LinuxARM.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\RefMem DMA\RefMem DMA Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\RefMem DMA\Linux_x64\RefMem DMA Engine Linux64.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\RefMem DMA\RefMem DMA Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
 		</SourceDistribution>
 	</CustomDeviceVI>
-	<Dependencies />
-	<Pages>
-		<Page>
-			<Name>
-				<eng>Data Channel</eng>
-				<loc>Data Channel</loc>
-			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>44f71a1c-f40f-4d80-99bc-9ce0de59748b</GUID>
-			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\RefMem DMA\Glyphs\Reflective Memory_Channel.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Data Channel.vi</Path>
-			</Item2Launch>
+  <Dependencies />
+  <Pages>
+    <Page>
+      <Name>
+        <eng>RefMem DMA</eng>
+        <loc>RefMem DMA</loc>
+      </Name>
+      <GUID>0e1a756e-1a6e-416d-924d-af2409f2f6d8</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\RefMem DMA\Glyphs\Data Sharing Network.png</Path>
+		</Glyph>
+		<Item2Launch>
+		<Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Main Page.vi</Path>
+		</Item2Launch>
+		<ActionVIOnCompile>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Main On Compile Action VI.vi</Path>
+		</ActionVIOnCompile>
+    </Page>
+	<Page>
+		<Name>
+			<eng>Decimation Channel</eng>
+			<loc>Decimation Channel</loc>
+		</Name>			
+		<DisallowRenaming>true</DisallowRenaming>
+		<DeleteProtection>true</DeleteProtection>
+		<GUID>8433dcab-dea3-4110-97cf-311a1b3fd76d</GUID>
+		<Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+		</Glyph>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Decimation Channel.vi</Path>
+		</Item2Launch>
+	</Page>
+	<Page>
+		<Name>
+		<eng>Data Channel</eng>
+		<loc>Data Channel</loc>
+		</Name>
+		<DisallowRenaming>true</DisallowRenaming>
+		<DeleteProtection>true</DeleteProtection>
+		<GUID>1ad56b5b-8f49-4d01-a2b2-7e5717d92d0c</GUID>
+		<Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\RefMem DMA\Glyphs\Reflective Memory_Channel.png</Path>
+		</Glyph>
+		<Item2Launch>
+		<Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Data Channel.vi</Path>
+		</Item2Launch>
 		</Page>
 		<Page>
-			<Name>
-				<eng>Decimation Channel</eng>
-				<loc>Decimation Channel</loc>
-			</Name>			
-			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>8433dcab-dea3-4110-97cf-311a1b3fd76d</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Decimation Channel.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Data Folder</eng>
-				<loc>Data Folder</loc>
-			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>false</DeleteProtection>
-			<GUID>46fff8b9-14f1-4a93-83c9-fa3107fe490e</GUID>
-			<Glyph>
+		  <Name>
+			<eng>Data Folder</eng>
+			<loc>Data Folder</loc>
+		  </Name>
+		  <GUID>8c1ebf08-4571-4c85-9af4-c2761dbfdef8</GUID>
+		  <Glyph>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\RefMem DMA\Glyphs\Reflective Memory_DMA Block.png</Path>
 			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Data Folder.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>RefMem DMA</eng>
-				<loc>RefMem DMA</loc>
-			</Name>
-			<GUID>1d8f030b-140c-49c3-a487-fe6eca8ef735</GUID>
-			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\RefMem DMA\Glyphs\Data Sharing Network.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\RefMem DMA Main Page.vi</Path>
-			</Item2Launch>
-			<!--
-			<ActionVIOnDownload>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\CheckAddsOnDeploy.vi</Path>
-			</ActionVIOnDownload> 
-			-->
-			<ActionVIOnCompile>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Main On Compile Action VI.vi</Path>
-			</ActionVIOnCompile>
-
+		  <Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Data Folder.vi</Path>
+		  </Item2Launch>
 		</Page>
 		<Page>
 			<Name>
@@ -156,9 +171,9 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\RefMem DMA\RefMem DMA Configuration.llb\Status Section.vi</Path>
 			</Item2Launch>
-		</Page>
+		</Page>		
 	</Pages>
-	<CustomXML>
-		<Dummy></Dummy>
-	</CustomXML>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
 </CustomDevice>

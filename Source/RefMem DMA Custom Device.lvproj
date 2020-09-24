@@ -364,7 +364,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/RefMem DMA/RefMem DMA Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08BECEEA-C2C4-4262-8351-7D8564FF9CB1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{87C4392E-0443-4D4E-A16E-1DBA3B848580}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device RefMem DMA.xml</Property>
@@ -680,7 +680,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Pharlap</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B1B74FDB-E933-45FF-A2CF-0CF469EDB97D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3DBBBEB9-E131-4176-A8E4-868B3F3B2D95}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - Pharlap/RefMem DMA Engine.lvlib/RT Driver VI.vi</Property>
@@ -710,7 +710,7 @@
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target - Pharlap/RefMem DMA Engine.lvlib/Engine</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target - Pharlap/NI VeriStand APIs</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -723,22 +723,7 @@
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT PXI Target - Pharlap/NI VeriStand APIs</Property>
-				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -902,7 +887,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{76876736-607A-4DF9-B72A-FA567C04234B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{18048D2F-3A5C-4170-AC86-0049A46B592A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - Linux x64/RefMem DMA Engine.lvlib/RT Driver VI.vi</Property>
@@ -932,35 +917,20 @@
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target - Linux x64/RefMem DMA Engine.lvlib/Engine</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target - Linux x64/RefMem DMA Shared.lvlib/Shared</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[3].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[3].properties[4].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT PXI Target - Linux x64/RefMem DMA Shared.lvlib/Shared</Property>
-				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 		</Item>
 	</Item>
