@@ -22,7 +22,7 @@ Channel Default Value (for Write Channels Only)|Value used as Init Value for tha
 
 ### LabVIEW Version ###
 
-LabVIEW 2019
+LabVIEW 2020
 
 ### Dependencies ###
 
