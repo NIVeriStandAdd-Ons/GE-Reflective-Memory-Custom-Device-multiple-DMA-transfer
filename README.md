@@ -38,7 +38,9 @@ No builds are available.
 
 ### Quality, Limitations ###
 
-The IP has been updated for one specific customer and was deployed successfully. 
+The IP has been updated for one specific customer and was deployed successfully.
+
+**Determinism issues have been identified in this version of the custom device on NI Linux RT. Use the code in the 2020_pxiLinuxRt branch if losing data is not acceptable in your application.**
 
 ### License ###
 
