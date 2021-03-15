@@ -1,0 +1,1 @@
+This folder is used as a temporary build folder, llb files are automatically copied to the appropriate VeriStand folder in Public Documents. No built versions of this custom device are available on GitHub.
